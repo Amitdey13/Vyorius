@@ -16,7 +16,7 @@ function Button(props){
     }
     return(
         <div>
-            <input style={style} value={props.name}/>
+            <input type="button" style={style} value={props.name}/>
         </div>
     );
 }
