@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+/*      Navbar      */
+
+li{
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(180, 180, 180);
+    font-weight: 700;
+}
+.nav li{
+    margin: 0px 13px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.nav li:hover{
+    color: grey;
+}
+.brand{
+    width: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.launch{
+    width: 28%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand-name{
+    color: orangered;
+    font-weight: 500;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 37px;
+}
+
+/*      About      */
+
+.orange{
+    color: orangered;
+}
+.about{
+    width: 40%;
+    height: 580px;
+    display: flex;
+    margin: 0px;
+    text-align: left;
+    justify-content: flex-end;
+    font-family: calibri;
+    position: relative;
+    flex-direction: column;
+}
+.tag{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.brief-info{
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 70px;
+    margin: 5px 0px;
+}
+.info{
+    font-size: 25px;
+    margin: 0px;
+}
+a{
+    margin-left: 7px;
+}
+.more-info-links{
+    width: 86%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.get-started{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*      Clipart      */
+
+.clipart{
+    width: 45%;
+    height: 580px;
+    display: flex;
+    margin: 0px;
+    text-align: left;
+    justify-content: flex-end;
+    font-family: calibri;
+    position: relative;
+    flex-direction: column;
+}
+img{
+    height: 70%;
+    width: 100%;
+}
